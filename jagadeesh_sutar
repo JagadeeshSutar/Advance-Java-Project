@@ -1,0 +1,37 @@
+JDBC
+
+1.Open the sts or eclipse 
+2.To create the project 
+  a.Click on the "File->Maven Project"
+  b.You will get Popup window "New Maven Project"
+    * Here just check the "Create a simple project" and click "Next"
+    * Next you will be redirected to another popup window where you should enter "Group Id" and "Artifact Id"
+      ex : Group Id = "org.jsp" and Artifact Id = "your_project_name"
+3.Then click on "Finish"
+4.After the project creation finished just go to the file "pom.xml"
+  Here you shoul add mysql dependency. To do that 
+    a.First create a <dependencies></dependencies> tag just below the version tag
+    b.Then go to the browser and search "https://mvnrepository.com/" and there you should search your dependencies i.e., "mysql connector"
+    c.You will get many dependencies among them select the "MySQL Connector Java" and select the version you want - eg."8.0.28"
+    d.Then you will get the dependency just copy and paste it in the dependencies tag
+5.Then go to the "src/main/java" there you should create a class as per your requirement
+  Right Click->New->Class
+
+
+HIBERNATE
+
+1.Open the sts or eclipse 
+2.To create the project 
+  a.Click on the "File->Maven Project"
+  b.You will get Popup window "New Maven Project"
+    * Here just check the "Create a simple project" and click "Next"
+    * Next you will be redirected to another popup window where you should enter "Group Id" and "Artifact Id"
+      ex : Group Id = "org.jsp" and Artifact Id = "your_project_name"
+3.Then click on "Finish"
+4.After the project creation finished just go to the file "pom.xml"
+  Here you shoul add mysql and hibernate dependency. To do that 
+    a.First create a <dependencies></dependencies> tag just below the version tag
+    b.Then go to the browser and search "https://mvnrepository.com/" and there you should search your dependencies i.e., "mysql connector","hibernate core"
+    c.You will get many dependencies among them select the "MySQL Connector Java" and select the version you want - eg."8.0.28"
+    d.Then you will get the dependency just copy and paste it in the dependencies tag
+
